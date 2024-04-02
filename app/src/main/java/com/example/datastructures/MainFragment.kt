@@ -20,6 +20,12 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentMainBinding.inflate(inflater, container, false)
+
+//        _binding?.let {
+//            //do something if not null
+//        } ?: {
+//            //do something else if null
+//        }
         return binding.root
     }
 
